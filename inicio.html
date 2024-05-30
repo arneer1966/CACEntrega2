@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/inicio.css">
+    <title>Inicio del sistema</title>
+</head>
+
+<body>
+    <!-- <form method="post" action="index.html" id="validaus" > -->
+    <!-- <form action="/index.html" method="" id="validaus"> -->
+    <form method="post" id="validaus">
+        <p>ingrese su usuario y contraseña</p>
+        <div>
+            <label for="nombre">Usuario</label>
+            <input type="text" name="nombre" id="nombre" value="usuario" requierd>
+            <span id="error1"></span>
+            <br><br>
+        </div>
+        <div>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" id="pass" value="password" required>
+            <span id="error2"></span>
+        </div>
+        <br><br>
+        <div>
+            <input type="submit" name="ret" id="ret" value="Validar">
+            <input type="reset" name="res" id="res" value="Cancelar">
+        </div>
+    </form>
+    <!-- <a href="index.html"><button>Menú principal</button></a> -->
+    <script src="js/inicio.js"></script>
+</body>
+
+</html>
